@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ecf0f1;
+}
+
+.space-between {
+    justify-content: space-between;
+    display: flex;
+}
+
+ul,
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    border-bottom: 3px solid orange;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+span {
+    color: orange;
+}
+
+.active {
+    color: orange;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: #bdc3c7;
+    font-weight: bold;
+}
+
+#newsletter {
+    background-color: #2c3e50;
+    margin: 0;
+    padding: 0;
+}
+
+.container-subscribe {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+h4 {
+    color: white;
+}
+
+button {
+    background-color: #d35400;
+    border: none;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+}
+
+#service {
+    display: flex;
+
+}
+
+.data {
+    display: grid;
+    padding-left: 100px;
+}
+
+.design {
+    background-color: gray;
+    margin: 4px;
+
+}
+
+.maintanance {
+    background-color: gray;
+    margin: 4px;
+  
+}
+
+.hosting {
+    background-color: gray;
+    margin: 4px;
+}
+
+#service h4 {
+    color: black;
+
+}
+
+.contact {
+    background-color: #2c3e50;
+    padding-left: 75px;
+    margin-left: 75px;
+    margin-bottom: 120px;
+    margin-top: 20px;
+    color: white;
+}
+
+.name, .email, .message{
+    display: grid;
+    padding: 2px;
+    margin-right: 25px;
+
+
+} 
+
+#subject{
+    display: grid;
+    margin-right: 70px;
+    padding: 2px;
+    margin-bottom: 4px;
+ } 
+
+#service {
+    font-size: 10px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #d35400;
+    padding: 10px;
+}
+
+footer h1 {
+    margin: 0px;
+    font-size: 15px;
+    color: white;
+}
+.labels{
+    display: block;
+}
